@@ -1,0 +1,61 @@
+<!--
+    iOS-Calculator
+    CONTRIBUITORS:
+    -> Max Lucio Martins de Assis (GitHub - MaxLucio528)
+
+    PURPOSE: This project is a simple page that has a iOS Calculator implemented with JavaScript, 
+    inspired by a project from Brian Holt's Complete Intro to Web Development course, in which 
+    the students are asked to make a iOS Calculator, this is my version of this project. It's 
+    compatible with (probably) any web browser.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>iOS Calculator</title>
+        <link rel="stylesheet" href="stylesheets/style.css">
+    </head>
+    <body>
+        <!-- Page Logo -->
+        <h1 class="logo-text">iOS Calculator</h1>
+        <!-- Box where the results will appear. -->
+        <div class="display">
+            <p class="result">0</p>
+        </div>
+        <!-- The buttons goes inside that div. -->
+        <!-- The "num-btn" ones are the buttons for numebers, clear and erase. -->
+        <!-- The "operation-btn" ones are the buttons for operations. -->
+        <div class="buttons-div">
+            <!-- First row. -->
+            <button class="num-btn">C</button>
+            <button class="num-btn">&larr;</button>
+            <button class="operation-btn">&divide;</button>
+
+            <!-- Second row. -->
+            <button class="num-btn">7</button>
+            <button class="num-btn">8</button>
+            <button class="num-btn">9</button>
+            <button class="operation-btn">&times;</button>
+            
+            <!-- Third row. -->
+            <button class="num-btn">4</button>
+            <button class="num-btn">5</button>
+            <button class="num-btn">6</button>
+            <button class="operation-btn">&minus;</button>
+
+            <!-- Fourth row. -->
+            <button class="num-btn">1</button>
+            <button class="num-btn">2</button>
+            <button class="num-btn">3</button>
+            <button class="operation-btn">&plus;</button>
+
+            <!-- Fifth row. -->
+            <button class="num-btn">0</button>
+            <button class="operation-btn">&equals;</button>
+        </div>
+
+        <!-- Script of the calculator. -->
+        <script src="scripts/script.js"></script>
+    </body>
+</html>

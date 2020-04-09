@@ -1,0 +1,111 @@
+/*
+ *  iOS-Calculator
+ *  CONTRIBUITORS:
+ *  -> Max Lucio Martins de Assis (GitHub - MaxLucio528)
+ * 
+ *  PURPOSE: This project is a simple page that has a iOS Calculator implemented with JavaScript, 
+ *  inspired by a project from Brian Holt's Complete Intro to Web Development course, in which 
+ *  the students are asked to make a iOS Calculator, this is my version of this project. It's 
+ *  compatible with (probably) any web browser.
+ */
+
+
+/* Page-Wide Settings */
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Title Style */
+
+.logo-text{
+    font-family: Helvetica;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Calculator Display */
+
+.display{
+    margin: auto;
+    border-top: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-bottom: 1px solid #000000;
+    width: 398px;
+    height: 120px;
+    background-color: #1d1d1d;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Numbers shown on the display */
+
+.result{
+    margin: 0;
+    padding: 15px 20px 15px 15px;
+    width: 360px;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: right;
+    word-wrap: break-word;
+}
+
+/* Calculator Buttons */
+
+.buttons-div{
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Number Buttons */
+
+.num-btn{
+    border: 1px solid #000000;
+    width: 100px;
+    height: 100px;
+    background-color: #d3d3d3;
+    font-size: 40px;
+}
+
+.num-btn:hover{
+    background-color: #e7e4e4;
+}
+
+.num-btn:active{
+    background-color: #a9a9a9;
+}
+
+/* For the "Clear" button. */
+.num-btn:first-of-type{
+    width: 200px;
+}
+
+/* For the "0" button. */
+.num-btn:nth-of-type(16){
+    width: 300px;
+}
+
+/* Operation Buttons */
+
+.operation-btn{
+    border: 1px solid #000000;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: #f19845;
+    color: #ffffff;
+}
+
+.operation-btn:hover{
+    background-color: #f1ab68;
+}
+
+.operation-btn:active{
+    background-color: #ee8727;
+}
