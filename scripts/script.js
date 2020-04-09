@@ -47,7 +47,7 @@ function buttonPressed(event){
             display.innerText = display.innerText.substring(0, (display.innerText.length - 1));
             
             // When the display is empty, a zero is put on display.
-            if(display.innerText == ""){
+            if(display.innerText == "" || display.innerText == "-"){
                 if(state == 0)
                     op = null;
 
