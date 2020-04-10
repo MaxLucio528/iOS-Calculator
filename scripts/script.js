@@ -35,6 +35,16 @@ function buttonPressed(event){
     // Stores the char inside the button, to know which button was clicked.
     let optionText = event.target.innerText;
 
+    // Verifies what kind of button was pressed.
+    if(isNaN(parseInt(optionText))){ // Symbol pressed.
+        symbolButton(optionText);
+    }else{ // Number pressed.
+        numberButton(optionText);
+    }
+}
+
+// This function handles the user's clicks on symbol buttons.
+function symbolButton(optionText){
     // Selects the right option.
     switch(optionText){
         // Clear button.
@@ -68,6 +78,41 @@ function buttonPressed(event){
             }
         break;
 
+        // Divide button.
+        case "÷":
+            operationHandler(optionText);
+        break;
+        
+        // Times button.
+        case "×":
+            operationHandler(optionText);
+        break;
+
+        // Subtract button.
+        case "−":
+            operationHandler(optionText);
+        break;
+
+        // Plus button.
+        case "+":
+            operationHandler(optionText);
+        break;
+
+        // Equals button.
+        case "=":
+            resultHandler();
+        break;
+
+        // When something goes wrong with the program.
+        default:
+            console.log("Oops! Something went wrong...");
+    }
+}
+
+// This function handles the user's clicks on number buttons.
+function numberButton(optionText){
+    // Selects the right option.
+    switch(optionText){
         // Button zero.
         case "0":
             numberHandler(optionText);
@@ -116,31 +161,6 @@ function buttonPressed(event){
         // Button nine.
         case "9":
             numberHandler(optionText);
-        break;
-
-        // Divide button.
-        case "÷":
-            operationHandler(optionText);
-        break;
-        
-        // Times button.
-        case "×":
-            operationHandler(optionText);
-        break;
-
-        // Subtract button.
-        case "−":
-            operationHandler(optionText);
-        break;
-
-        // Plus button.
-        case "+":
-            operationHandler(optionText);
-        break;
-
-        // Equals button.
-        case "=":
-            resultHandler();
         break;
 
         // When something goes wrong with the program.
