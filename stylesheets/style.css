@@ -71,6 +71,7 @@ body {
     height: 100px;
     background-color: #d3d3d3;
     font-size: 40px;
+    cursor: pointer;
 }
 
 .num-btn:hover{
@@ -100,6 +101,7 @@ body {
     height: 100px;
     background-color: #f19845;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .operation-btn:hover{
