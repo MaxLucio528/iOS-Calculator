@@ -23,6 +23,13 @@ let num2; // Second number selected.
 let op = null; // Operation selected.
 let result; // Result from the operation.
 
+/**
+ * Obtaining all the buttons of the calculator, also adding a event listener to know when a
+ * button was clicked.
+ */
+const button = document.querySelector(".buttons-div").addEventListener("click", buttonPressed);
+const display = document.querySelector(".result"); // Obtaining what's on the calculator display.
+
 // This function handles user's clicks on the buttons.
 function buttonPressed(event){
     // Stores the char inside the button, to know which button was clicked.
@@ -239,10 +246,3 @@ function resultHandler(){
         state = 0;
     }
 }
-
-/**
- * Obtaining all the buttons of the calculator, also adding a event listener to know when a
- * button was clicked.
- */
-const button = document.querySelector(".buttons-div").addEventListener("click", buttonPressed);
-const display = document.querySelector(".result"); // Obtaining what's on the calculator display.
