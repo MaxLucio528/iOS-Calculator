@@ -14,6 +14,8 @@ Current Version: 1.0
 
 -> Minor change on JS code, button and display variables are above the functions now.
 
+-> Function symbolHandler() and numberHandler() created to handle numbers and symbols in separate functions, making smaller and less confusing switches.
+
 **Version 1.0 (09/04/2020) [FORMAT (DD/MM/YY)]**
 
 -> Initial version of the website, all the functions were implemented.
