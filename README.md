@@ -11,6 +11,7 @@ Current Version: 1.0
 **Version 1.1 (10/04/2020) [FORMAT (DD/MM/YY)]**
 
 -> Cursor changes to a pointer when hovering a button.
+
 -> Minor change on JS code, button and display variables are above the functions now.
 
 **Version 1.0 (09/04/2020) [FORMAT (DD/MM/YY)]**
