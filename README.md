@@ -4,7 +4,7 @@ Made by: Max Lucio Martins de Assis.
 
 This project is a simple page that has a iOS Calculator implemented with JavaScript, inspired by a project from Brian Holt's [Complete Intro to Web Development](https://frontendmasters.com/courses/web-development-v2/) course, in which the students are asked to make a iOS Calculator, this is my version of this project. It's compatible with (probably) any web browser.
 
-Current Version: 1.0
+Current Version: 1.1
 
 ## Changelog
 
